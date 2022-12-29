@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    /*background: linear-gradient(#fe0202);*/
+   
+}
+.container
+{
+    text-align: center;
+}
+.text{
+    color: #ffff;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+.page{
+    width: 350px;
+    background: #fff;
+    border-radius:5px ;
+    padding-bottom:15px ;
+}
+.tital{
+    padding: 30px 0;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: 'pacifico',cursive;
+}
+form{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 30%;
+    transform: translateX(-50px);
+
+}
+form input{
+    margin-bottom: 5px;
+    border: 1px solid;
+}
+form input:focus{
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    background: #efefef;
+}
+input[type="text"],input[type="password"]{
+    padding-left: 10px;
+    position: relative;
+    height: 35px;
+    font-size: 17px;
+}
+input::placeholder{
+    font-weight: normal;
+    font: 13px;
+    transition: 0.3s ease;
+}
+input:focus::placeholder{
+    position: absolute;
+    font-size: 10px;
+    transform: translateY(-13px);
+}
+form button{
+    border: none;
+    
+    padding: 5px 0;
+    margin-top:5px ;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    outline: none;
+    cursor: pointer;
+}
+form button:active{
+    background: #2c58fe;
+}
+form .option{
+    color: #5a5a5a;
+    margin: 10px 0;
+    font-weight: bold;
+    position: relative;
+}
+    </style>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body >
+    
+    <div class="container">
+        <div class="text">Log in to continue</div>
+        <div class="page">
+          <div class="tital">Omni Website for PMT Busses</div>
+            <form action="#">
+                <input type="text" placeholder="enter user name or number">
+                <input type="password" placeholder="password">
+                <button>log in</button>
+                <div class="option">OR</div>
+            </form>
+            <div class="forgot.id">
+                <a href="#">Forgot password</a>
+            </div>
+            <div>
+                <p>don't have an account?<a href="login_detail.html">sign up</a></p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

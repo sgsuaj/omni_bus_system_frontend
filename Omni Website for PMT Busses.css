@@ -1,0 +1,165 @@
+:root{
+  --colorbrown: blue;
+}
+body{
+  padding: 0;
+  margin: 0;
+  background-color: rgb(253, 251, 251);
+  
+}
+header{
+  position: fixed;;
+  background-color: rgb(9, 9, 9);
+  color: white;
+  width: 100%;
+}
+.website-header{
+  padding: 1px;
+  width: 100%;
+  display: flex;
+
+  
+
+}
+
+nav{
+  background-color: black;
+  height: 50px;
+  margin-bottom: 500px;
+  position: fixed;
+}
+nav ul{
+  margin: 1px 0 0;
+}
+.navbar-nav li a{
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+    body, div, p {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        
+        font-weight: 300;
+        letter-spacing: 0.0625em;
+    }
+    #home{
+        
+        
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    nav {
+        position: fixed;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+    }
+    
+    nav ul {
+        list-style: none;
+        text-align: left;
+        margin-top: 30px;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    nav ul li:last-child {
+        margin-right: 0;
+    }
+    
+    #back-to-tutorial {
+        margin-left: 100px;
+    }
+    
+    nav a {
+
+        position: relative;
+        top: 1px;
+        padding: 10px 20px;
+        font-weight: normal;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 4px;
+        background-color: #0c0c0c;
+        color: #f4f3f3;
+        
+       
+    }
+    
+    nav a.active {
+        top: -4px;
+        background-color: #6cc1eb;
+        color: #FFFFFF;
+        
+    }
+    
+    .slides-container {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: 10;
+    }
+    
+    .slide {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    .slide .centered {
+        width: 40%;
+        margin: 100px auto 0;
+    }
+    
+    .slide .centered h1 {
+        text-align: left;
+    }
+    
+    .slide .centered p {
+        text-align: left;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    
+    #slide-1 {
+        background-color: #ffffff;
+    }
+    
+    #slide-2 {
+        background-color: #a1f0e7;
+    }
+    
+    #slide-3 {
+        background-color: #85d3a8;
+    }
+    
+    #slide-4 {
+        color: #FFFFFF;
+        background-color: #6faea7;
+    }
+    
+    .go-prev, .go-next {
+        cursor: pointer;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+
+
+
